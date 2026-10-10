@@ -32,8 +32,17 @@ logs/
 *.log
 *.lock
 
+# --- 个人脚本目录（不上传；2026-10-10 东哥定）---
+/scripts/
+
+# --- 文档 / Markdown（一律不上传；2026-10-10 东哥定）---
+**/*.md
+**/*.markdown
+**/AGENTS.md
+**/agents.md
+**/docs/
+
 # --- AI / 工具运行态 ---
-agents.md
 proxy.bat
 Proxy.bat
 .workbuddy/
